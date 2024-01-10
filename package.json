@@ -4,13 +4,23 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "start": "node index.js",
+    "start": "node src/index.js",
+    "dev": "nodemon src/index.js",
     "format": "prettier --write *.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/jackjija/NodeREST"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/jackjija/NodeREST/issues"
+  },
+  "homepage": "https://github.com/jackjija/NodeREST#readme",
   "devDependencies": {
+    "nodemon": "^3.0.2",
     "prettier": "^3.1.1"
   },
   "dependencies": {
